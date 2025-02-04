@@ -2,8 +2,8 @@
 
 This project is a simple CV format website built with HTML and CSS. It provides a template for creating a professional-looking CV.
 
-`Website url - `https://kishan2624.github.io/roadmap.sh/frontent/cv/index.html
-`Project url - `https://github.com/Kishan2624/roadmap.sh/tree/main/frontent/cv
+## Project URl
+[Click Here to view the project](https://kishan2624.github.io/roadmap.sh/frontent/cv/index.html)
 
 ## Project Structure
 
