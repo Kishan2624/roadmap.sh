@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <meta name="keywords" content="CV Formate , CV Tamplet" />
+    <meta name="description" content="This is cv format website" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        /* created color variables */
+        --clr-black: black;
+        --clr-green: green;
+        --clr-blue: #3570a0;
+
+        /* created font variables */
+        --font-popins: "Poppins", sans-serif;
+
+        /* created font size variables */
+        --font-size-h1: 2rem;
+        --font-size-h2: 1.1rem;
+        --font-size-h3: 1.25rem;
+        --font-size-p: 1rem;
+
+        /* created font line height */
+        --line-height-h1: 2rem;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      main {
+        border: 2px solid var(--clr-black);
+        padding: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: flex-start;
+        align-items: start;
+        font-family: var(--font-popins);
+        font-weight: 500;
+        max-width: 35rem;
+      }
+
+      section {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        row-gap: 1rem;
+      }
+
+      main > section:last-child {
+        row-gap: 0;
+      }
+
+      h2 {
+        color: var(--clr-green);
+        font-weight: 500;
+        font-size: var(--font-size-h2);
+      }
+
+      h3 {
+        color: var(--clr-blue);
+        font-weight: 500;
+        font-size: var(--font-size-h3);
+      }
+
+      ul {
+        list-style-position: inside;
+      }
+
+      #personalInfo-section hr {
+        border: 0.15rem solid var(--clr-black);
+        background-color: var(--clr-black);
+        width: 100%;
+        border-radius: 0.125rem;
+      }
+
+      #personalInfo-section > h1 {
+        color: var(--clr-black);
+        font-size: var(--font-size-h1);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="personalInfo-section">
+        <hr />
+        <h1 id="name">Your Name</h1>
+        <h2>Junior Frontend Developer</h2>
+        <address>
+          <p>123 Your Street</p>
+          <p>Your City, ST 12345</p>
+          <p>(123) 456-7890</p>
+          <p>no_reply@gmail.com</p>
+        </address>
+      </section>
+      <section id="skills-Section">
+        <h2>Skills</h2>
+        <p>
+          HTML, CSS, JavaScript, Accessibility, Figma to Desing, Responsive Web
+          Design, TechnicalWriting, Preseation
+        </p>
+      </section>
+      <section id="education-Section">
+        <h2>Education</h2>
+        <div>
+          <h3>School Name, Location - Degree</h3>
+          <p>Month 20x to Month 20xx</p>
+        </div>
+        <p>List of exiciting things you did at university</p>
+      </section>
+      <section id="experince-Section">
+        <h2>Experience</h2>
+        <div>
+          <h3>Commpany Name, Location - Job Title</h3>
+          <p>Month 20xx to Month 20xx</p>
+        </div>
+        <ul>
+          <li>List of achievenments</li>
+          <li>List of achivenements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+        <div>
+          <h3>Company Name, Location - Job Title</h3>
+          <p>Month 20xx to Month 20xx</p>
+        </div>
+        <ul>
+          <li>List of achievnments</li>
+          <li>List of achievnments</li>
+          <li>List of achievnments</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+      </section>
+      <section id="socailMedia-Section">
+        <h2>Across the Internet</h2>
+        <p>Add your Linkedin, Github Profile links</p>
+      </section>
+    </main>
+  </body>
+</html>
